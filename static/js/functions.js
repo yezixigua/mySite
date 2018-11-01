@@ -432,7 +432,7 @@
 			
 			if( $(this).length ){
 				$.elegant_GoogleMap_Maps	= $(this);
-				$.getScript("http://maps.google.com/maps/api/js?sensor=false&callback=jQuery.fn.elegant_GoogleMap_CallBack&async=2");
+				// $.getScript("http://maps.google.com/maps/api/js?sensor=false&callback=jQuery.fn.elegant_GoogleMap_CallBack&async=2");
 			}
 		},
 		elegant_GoogleMap_CallBack	: function(){
