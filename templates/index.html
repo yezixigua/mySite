@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 
-<title>Demo::Free Professional HTML5 CV/Resume Template: The Resume</title>
+<title>刘壮的个人简历</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <meta name="robots" content="index,follow" />
@@ -98,7 +98,7 @@ Thank you for contacting me!
 <div style="clear:both;"></div>
 
 <!--map start-->
-<div id="map-wrapper">
+<div id="map-wrapper" >
            
 <div id="topLine"></div>
 
@@ -108,7 +108,7 @@ Thank you for contacting me!
         
         <div class="gwrap">
             
-            <div id="topPanelHandle"><span>Map</span></div>
+            <div id="topPanelHandle"  hidden><span >Map</span></div>
             
             </div>
 		
@@ -171,7 +171,9 @@ Thank you for contacting me!
               <h6>Flask</h6>
               <br />
               
-               <p>熟悉Flask框架，会使用blueprint实现不同路由拆分，降低耦合度。会使用ORM封装不同数据库，提高使用数据库灵活性。</p>
+               <p>  熟悉Flask框架，会使用blueprint实现不同路由拆分，降低耦合度。会使用ORM封装不同数据库，提高使用数据库灵活性。
+                    了解http协议，知道常用函数的实现机制，知道cookie、session的用法差异。
+               </p>
               
             
             
@@ -191,11 +193,11 @@ Thank you for contacting me!
             
             <br />
             
-<p>了解前端技术，能读懂并按需求修改HTML、CSS、JavaScript，会使用jQuery以及Bootstrap样式，会写AJAX，知道JSON格式</p>
+            <p>
+                了解前端技术，能读懂并按需求修改HTML、CSS、JavaScript，会使用jQuery以及Bootstrap样式，会写AJAX，知道JSON格式
+            </p>
               
 
-
-              
               </div>
               <!--portfolio_item end-->
               
@@ -212,7 +214,7 @@ Thank you for contacting me!
             
             
             <br />
-            <p>会使用MYSQL、SQLite、mongodb数据库， 会使用ORM数据库映射封装数据库操作</p>
+            <p>会使用MYSQL、SQLite、mongodb数据库， 会写SQL语句， 会防止SQL注入</p>
             
 
               
@@ -236,7 +238,7 @@ Thank you for contacting me!
             
             
             <br />
-            <p>会使用linux操作系统进行常规操作， 编写shell脚本，会配置Nginx、 gunicorn </p>
+            <p>会使用linux操作系统进行常规操作，配置权限、查看运行程序、查看网络端口使用情况，会编写shell脚本，会配置Nginx、 gunicorn </p>
               
 
               </div>
@@ -259,7 +261,7 @@ Thank you for contacting me!
             
             <br />
             
-            <p>熟悉网络编程，会使用socket编程， 了解http协议， 了解基本的网络安全知识， 会写爬虫， 自己爬取小说网站的小说。会使用git工具</p>
+            <p>熟悉网络编程，会使用socket编程， 了解http协议， 了解基本的网络安全知识， 会写爬虫，会使用Pyquery解析页面。会使用git工具</p>
               
 
 
@@ -294,7 +296,10 @@ Thank you for contacting me!
             
             </br>
 
-            <p>负责全部软硬件设计，包括内部节点控制板的软硬件设计、树莓派网关的软件编写、网站的搭建以及控制板和网关的RF通信以及网关和网站的TCP通信。前期硬件选型、采购、PCB打板、焊接、调试程序、实现功能，再编写网关程序，跑在树莓派上，之后编写网站，使用了简单的页面+nginx并发+PHP实现，通过的socket实现网关与网站通信，进而连接各节点控制相应设备。</p>
+            <p>负责全部软硬件设计，包括网站的搭建、网站和网关的TCP通信、树莓派网关的软件编写，以及网关和控制板的RF通信、内部节点控制板的软硬件设计。
+                网站最初手写前端页面，配合PHP+nginx完成整个的搭建，通过socket连接家中的网关，进而控制家中内部节点。后续学习转到Python， 使用Flask重写网站架构。
+                购买树莓派作为网关平台，通过NRF24l01模块实现内部节点的无线通信。独立实现内部控制板的硬件选型、原件采购、PCB打板、焊接、
+                调试嵌入式代码从而控制家中电器。</p>
              
              
              </div>
@@ -304,19 +309,14 @@ Thank you for contacting me!
              
               <!--portfolio_item start-->
              <div class="portfolio_item">
-            <div class="winner_tag">Winner</div>
-            <h3>Minimal Vector Icons (PSD, AI, CDR)</h3>
-            
-            
-            
-           
-            
-            
-            <h6>gCons</h6>
+{#            <div class="winner_tag">Winner</div>#}
+            <h3>网络爬虫</h3>
+
+            <h6>pyquery</h6>
             
             <br />
             
-            <p>Vivamus eu nibh et felis interdum venenatis, sed vestibulum euismod luctus. Ut viverra leo id enim convallis non faucibus elit ullamcorper. Suspendisse condimentum scelerisque gravida.</p>
+            <p>由于喜欢看小说，又不想充钱，学会了使用爬虫爬取小说全文，使用pyquery或正则表达式提取标题、章节、正文等元素，重新组织成小说原文。</p>
              
              
              </div>
@@ -326,18 +326,17 @@ Thank you for contacting me!
               
                <!--portfolio_item start-->
              <div class="portfolio_item">
-              <h3>Job Search Engine</h3>
+              <h3>恩智浦飞思卡尔智能车竞赛</h3>
             
-            
-            
-           
-            
-            
-            <h6>blend.pk</h6>
+
+{#            <h6>blend.pk</h6>#}
             
             <br />
             
-            <p>Vivamus eu nibh et felis interdum venenatis, sed vestibulum euismod luctus. Ut viverra leo id enim convallis non faucibus elit ullamcorper. Suspendisse condimentum scelerisque gravida.</p>
+            <p> 负责智能车硬件设计和图像识别算法的编写，包括摄像头驱动、DMA、图像矫正，以及调试时图像显示在LCD显示屏上和存入SD卡等。
+                比赛内容是智能车通过摄像头读取路径信息，沿相应路径移动，比拼跑完整个赛道的耗时。
+                获2015年恩智浦飞思卡尔智能车全国二等奖
+            </p>
              
              
              </div>
@@ -347,18 +346,15 @@ Thank you for contacting me!
               
                <!--portfolio_item start-->
              <div class="portfolio_item">
-            <h3>Web-based College Management</h3>
-            
-            
-            
-           
-            
-            
-            <h6>name here</h6>
+            <h3>瑞萨电子设计竞赛</h3>
+
+{#            <h6>name here</h6>#}
             
             <br />
             
-            <p>Vivamus eu nibh et felis interdum venenatis, sed vestibulum euismod luctus. Ut viverra leo id enim convallis non faucibus elit ullamcorper. Suspendisse condimentum scelerisque gravida.</p>
+            <p>负责部分软件代码的编写。主控板上设计双MCU交互，其中一核专门负责图像处理，另一核负责其他全部的事物，包括主要的控制进程，
+                以及九轴传感器的姿态读取解析、四轴飞行器姿态控制、调用图像处理结果、偏移姿态角进行移动、高度控制等
+            </p>
              
              
              </div>
@@ -368,19 +364,17 @@ Thank you for contacting me!
               
                <!--portfolio_item start-->
              <div class="portfolio_item">
-              <div class="winner_tag">Winner</div>
-            <h3>Corporate Recruitment Application</h3>
-            
-            
-            
-           
-            
-            
-            <h6>HR company</h6>
+{#              <div class="winner_tag">Winner</div>#}
+            <h3>100G长距光纤通信模块</h3>
+
+            <h6>HW</h6>
             
             <br />
             
-            <p>Vivamus eu nibh et felis interdum venenatis, sed vestibulum euismod luctus. Ut viverra leo id enim convallis non faucibus elit ullamcorper. Suspendisse condimentum scelerisque gravida.</p>
+            <p>
+                拉通周边部门（软件、软测、硬测、装备、结构、工艺）确定项目方案以及测试需求，准备测试物料，导入生产加工，推动测试部开展测试，
+                定位问题（研发测试和产线加工问题），修订方案至产品稳定，生产上量加工。
+            </p>
              
              
              </div>
@@ -592,7 +586,7 @@ Thank you for contacting me!
                    <div class="clearfix"></div>
                   <block type="">
                         <li><p>职责业绩：</p>
-                        <li><p>1、主导项目开发，协调周边部门完成了一个项目从设计到量产</p>
+                        <li><p>1、主导项目开发，协调周边部门完成了一个100G光模块项目从设计到量产</p>
                         <li><p>2、所属项目的问题定位、生产加工处理、UT测试、资源协调</p>
                   </block>
 
@@ -716,7 +710,7 @@ Thank you for contacting me!
              <!--section start-->
              <div class="section" id="selected-works">
              
-              <h5>Selected Work</h5>
+              <h5>项目展示</h5>
               
               
               
@@ -728,17 +722,17 @@ Thank you for contacting me!
           
 
               
-				<li><a href="images/fullscreen/1.jpg" rel="gallery" title="My Awesome Work Item 1"><img src="images/thumbnails/work_img_01.gif" width="76px" height="76px" alt="Awesome Painting" /></a></li>
+				<li><a href="http://193.112.214.243:3000" ><img src="images/thumbnails/work_img_01.gif" width="160px" height="120px" alt="Awesome Painting" /></a></li>
                 
-                <li><a href="images/fullscreen/2.jpg" rel="gallery" title="This is an example title"><img src="images/thumbnails/work_img_02.gif" width="76px" height="76px" alt="Painting" /></a></li>
-                
-                <li class="last"><a href="images/fullscreen/3.jpg" rel="gallery" title="I love different titles"><img src="images/thumbnails/work_img_03.gif" width="76px" height="76px" alt="Character Design" /></a></li>
-                
-                <li><a href="images/fullscreen/4.jpg" rel="gallery" title="Lovely work!"><img src="images/thumbnails/work_img_04.gif" width="76px" height="76px" alt="Award Winning Character" /></a></li>
-                
-                <li><a href="images/fullscreen/5.jpg" rel="gallery" title="Awarded a shield on this"><img src="images/thumbnails/work_img_05.gif" width="76px" height="76px" alt="Beautiful" /></a></li>
-                
-                <li class="last"><a href="images/fullscreen/6.jpg" rel="gallery" title="Beautiful!!!"><img src="images/thumbnails/work_img_06.gif" width="76px" height="76px" alt="Character Painting" /></a></li>
+{#                <li><a href="images/fullscreen/2.jpg" rel="gallery" title="This is an example title"><img src="images/thumbnails/work_img_02.gif" width="76px" height="76px" alt="Painting" /></a></li>#}
+{#                #}
+{#                <li class="last"><a href="images/fullscreen/3.jpg" rel="gallery" title="I love different titles"><img src="images/thumbnails/work_img_03.gif" width="76px" height="76px" alt="Character Design" /></a></li>#}
+{#                #}
+{#                <li><a href="images/fullscreen/4.jpg" rel="gallery" title="Lovely work!"><img src="images/thumbnails/work_img_04.gif" width="76px" height="76px" alt="Award Winning Character" /></a></li>#}
+{#                #}
+{#                <li><a href="images/fullscreen/5.jpg" rel="gallery" title="Awarded a shield on this"><img src="images/thumbnails/work_img_05.gif" width="76px" height="76px" alt="Beautiful" /></a></li>#}
+{#                #}
+{#                <li class="last"><a href="images/fullscreen/6.jpg" rel="gallery" title="Beautiful!!!"><img src="images/thumbnails/work_img_06.gif" width="76px" height="76px" alt="Character Painting" /></a></li>#}
 				
 			</ul>
              
@@ -754,91 +748,91 @@ Thank you for contacting me!
              </div>
              <!--section end-->
              
-             
-             
-             
-              <!--section start-->
-             <div class="section" id="twitter_section">
-             
-              <h5>Twitter Feed</h5>
-              
-              
-              
-              <!--Twitter start-->
-              <div class="twitter_feed">
-              	<div id="tweet1">
-                     	<p>loading tweets...</p>
-                    </div>
-              </div>
-              <!--Twitter end-->
-            
-              
-             
-             
-             </div>
-             <!--section end-->
-             
-             
-             
-             
-             <!-- section start -->
-             
-             
-             <div class="section" >
-             
-<h5>Testimonials</h5>           
 
-<div class="testimonialWidget">
-					<ul class="testimonialList">
-						<li class="current">
-							<blockquote>Out of clutter, find Simplicity. From discord, find Harmony. In the middle of difficulty lies Opportunity.</blockquote>
-							<cite>Albert Einstein</cite>
-						</li>
-						<li>
-							<blockquote>Lorem ipsum dolor sit amet consectur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</blockquote>
-							<cite>Jane Doe</cite>
-						</li>
-						<li>
-							<blockquote>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>
-							<cite>John Doe</cite>
-						</li>
-						<li>
-							<blockquote>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
-							<cite>Unknown</cite>
-						</li>
-					</ul>
-					<div class="testimonialDetail cf">
-						<span class="testimonialArrows cf">
-							<span class="arrowLeft inactive"></span>
-							<span class="arrowRight"></span>
-						</span>
-						<span class="testimonialAuthor"></span>
-					</div>
-				</div>
-             
-</div>
-             
-             
-             <!-- section ends -->
-             
-             
-             
+
+{##}
+{#              <!--section start-->#}
+{#             <div class="section" id="twitter_section">#}
+{##}
+{#              <h5>Twitter Feed</h5>#}
+{##}
+{##}
+{##}
+{#              <!--Twitter start-->#}
+{#              <div class="twitter_feed">#}
+{#              	<div id="tweet1">#}
+{#                     	<p>loading tweets...</p>#}
+{#                    </div>#}
+{#              </div>#}
+{#              <!--Twitter end-->#}
+{##}
+{##}
+{##}
+{##}
+{#             </div>#}
+{#             <!--section end-->#}
+{##}
+
+
+
+             <!-- section start -->
+{##}
+{##}
+{#             <div class="section" >#}
+{##}
+{#<h5>Testimonials</h5>#}
+{##}
+{#<div class="testimonialWidget">#}
+{#					<ul class="testimonialList">#}
+{#						<li class="current">#}
+{#							<blockquote>Out of clutter, find Simplicity. From discord, find Harmony. In the middle of difficulty lies Opportunity.</blockquote>#}
+{#							<cite>Albert Einstein</cite>#}
+{#						</li>#}
+{#						<li>#}
+{#							<blockquote>Lorem ipsum dolor sit amet consectur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</blockquote>#}
+{#							<cite>Jane Doe</cite>#}
+{#						</li>#}
+{#						<li>#}
+{#							<blockquote>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>#}
+{#							<cite>John Doe</cite>#}
+{#						</li>#}
+{#						<li>#}
+{#							<blockquote>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>#}
+{#							<cite>Unknown</cite>#}
+{#						</li>#}
+{#					</ul>#}
+{#					<div class="testimonialDetail cf">#}
+{#						<span class="testimonialArrows cf">#}
+{#							<span class="arrowLeft inactive"></span>#}
+{#							<span class="arrowRight"></span>#}
+{#						</span>#}
+{#						<span class="testimonialAuthor"></span>#}
+{#					</div>#}
+{#				</div>#}
+{##}
+{#</div>#}
+{##}
+{##}
+{#             <!-- section ends -->#}
+
+
+
              </aside>
              <!--sidebar end-->
-           
-           
-           
-           
-         
-       
+
+
+
+
+
+
            <div style="clear:both;"></div>
-             
+
 			</section>
             <!--contents end-->
-            
+
             </div>
 			<!--wrapper end-->
-          
+
 
 <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
  <script type="text/javascript" charset="utf-8">
