@@ -9,7 +9,8 @@ app = Flask(__name__, static_url_path='')
 
 @app.route('/')
 def hello_world():
-    ip = request.remote_addr
+    # ip = request.remote_addr
+    ip = request.headers['X-Forwarded-For']
     print(ip)
     db.add_data(ip)
     return render_template('index.html', ip=ip)

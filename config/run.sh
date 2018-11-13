@@ -1,4 +1,8 @@
 
+
+# 需要添加该数据库权限部分
+sudo chmod 777 db/test3.db
+
 # 关闭服务
 service supervisor stop
 service nginx stop
