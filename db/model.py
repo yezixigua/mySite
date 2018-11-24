@@ -25,6 +25,8 @@ class Role(Base):
 # 连接数据库的一些变量， 会需要全局引用
 # print(os.getcwd())
 DB_CONNECT_STRING = 'sqlite:///db/test3.db'
+if __name__ == '__main__':
+    DB_CONNECT_STRING = 'sqlite:///test3.db'
 engine = create_engine(DB_CONNECT_STRING, echo=False)
 DB_Session = sessionmaker(bind=engine)
 session = DB_Session()
@@ -140,7 +142,7 @@ def query_all():
 # user = session.query(User).order_by(random()).first()
 
 
-def test():
+def my_test():
     init_data()
     query_all()
     add_data('1.1.1.1')
@@ -148,6 +150,6 @@ def test():
 
 
 if __name__ == '__main__':
-    test()
+    my_test()
     session.close()
 

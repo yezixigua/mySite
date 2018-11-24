@@ -1,4 +1,5 @@
 
+# 每次都需要手动更新supervisord 不太清楚原因
 
 # 需要添加该数据库权限部分
 sudo chmod 777 db/test3.db
