@@ -11,8 +11,12 @@ app = Flask(__name__, static_url_path='')
 def hello_world():
     # 本地没有配置nginx代理，本地调试的时候选用上面的
     # ip = request.remote_addr
-    ip = request.headers['X-Forwarded-For']
-    print(ip)
+
+    print(type(request))
+    if 'X-Forwarded-For' in request.headers:
+        ip = request.headers['X-Forwarded-For']
+    else:
+        ip = '6.6.6.6'
     db.add_data(ip)
     return render_template('index.html', ip=ip)
 
