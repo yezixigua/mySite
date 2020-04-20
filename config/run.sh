@@ -16,9 +16,8 @@ rm /etc/nginx/sites-enabled/mySite
 ln -s /home/an/space/mySite/config/supervisor.conf /etc/supervisor/conf.d/mySite.conf
 ln -s /home/an/space/mySite/config/nginx_config /etc/nginx/sites-enabled/mySite
 
-supervisorctl reload
-
 # 重启服务
-supervisorctl start mySite
+#supervisorctl start mySite
+supervisorctl reload
 service nginx restart
 

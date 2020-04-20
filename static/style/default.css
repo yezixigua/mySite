@@ -340,7 +340,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 /*===========================*/
 
 #sidebar {
-	width:280px;
+	width:260px;
 	float:left;
 	margin-left:94px;
 	/* Change margin-left:94px; to margin-right:94px; for layout 2 */
@@ -398,8 +398,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 
 .skills {
 	float:left;
-/*======width:140px;===========*/
-    width:49%;
+    width:130px;
+/*======    width:49%;===========*/
 	padding:25px 0px 5px 0px;
 }
 

@@ -6,4 +6,11 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
 
     }
+
+    listen 3000;
+    location / {
+        proxy_pass http://localhost:5000;
+        proxy_set_header X-Real-IP $remote_addr;
+
+    }
 }
