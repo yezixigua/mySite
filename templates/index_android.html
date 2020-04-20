@@ -197,6 +197,42 @@
 
                 <h5>专业技能</h5>
 
+                <!--work_item start-->
+                <div class="work_item">
+
+                    {#               <div class="year">2009 - Date</div>#}
+
+                    <h3>安卓开发</h3>
+
+                    <h6>OkHttp MediaPlayer Tinker</h6>
+                    <br/>
+
+                    <p> 熟悉安卓四大组件，熟悉消息传递机制，会使用常用控件和自定义控件。
+                        会使用动态权限申请，会集成tinker实现热修复，会接入LeakCanery修复内存泄漏。
+                    </p>
+
+
+                </div>
+                <!--portfolio_item end-->
+
+                <!--work_item start-->
+                <div class="work_item">
+
+                    {#               <div class="year">2009 - Date</div>#}
+
+                    <h3>android UI自动化</h3>
+
+                    <h6>UIAutomator2 Appium</h6>
+                    <br/>
+
+                    <p> 使用过UIAutomator2 Appium框架，熟悉adb命令，写过稳定性监测和性能监测脚本，
+                        写过自动化测试脚本，assert结果是否正确，汇总到PyUnit。
+                    </p>
+
+
+                </div>
+                <!--portfolio_item end-->
+
 
                 <!--work_item start-->
                 <div class="work_item">
@@ -208,33 +244,13 @@
                     <h6>Flask</h6>
                     <br/>
 
-                    <p> 熟悉Flask框架，会使用blueprint实现不同路由拆分，降低耦合度。会使用ORM封装不同数据库，提高使用数据库灵活性。
+                    <p> 熟悉Flask框架。会使用ORM封装不同数据库，提高使用数据库灵活性。
                         了解http协议，知道常用函数的实现机制，知道cookie、session的用法差异。
                     </p>
 
 
                 </div>
                 <!--portfolio_item end-->
-
-
-                <!--work_item start-->
-                <div class="work_item">
-
-                    {#               <div class="year">2007 - 2009</div>#}
-                    <h3>前端技术</h3>
-
-                    <h6>HTML CSS JavaSript jQuery Bootstrap AJAX JSON</h6>
-
-                    <br/>
-
-                    <p>
-                        了解前端技术，能读懂并按需求修改HTML、CSS、JavaScript，会使用jQuery以及Bootstrap样式，会写AJAX，知道JSON格式
-                    </p>
-
-
-                </div>
-                <!--portfolio_item end-->
-
 
                 <!--work_item start-->
                 <div class="work_item">
@@ -243,11 +259,11 @@
                     <h3>数据库</h3>
 
 
-                    <h6>MYSQL SQLite mongodb</h6>
+                    <h6>MYSQL SQLite</h6>
 
 
                     <br/>
-                    <p>会使用MYSQL、SQLite、mongodb数据库， 会写SQL语句， 会防止SQL注入</p>
+                    <p>会使用MYSQL、SQLite数据库</p>
 
 
                 </div>
@@ -308,11 +324,56 @@
                 <div class="portfolio_item">
 
 
-                    <h3>智能家居系统</h3>
+                    <h3>广告SDK（百度）</h3>
+
+                    <br>
+
+                    <p>
+                        负责该产品的测试工作，代码review和基本功能测试，广告下载、缓存、播放、计费、数据对齐、插件升级等，以及部分测试app的编写和维护。sdk对应的后台接口的自动化测试用例编写，requests请求确认各项返回正常，使用unittest将结果汇总，自动将成功失败用例数邮件发出来；稳定性挂测的代码编写，这部分在长期挂测时，通过检测app相关信息判断整个播放过程中是否存在异常。上量后的计费数据分析，从数据库中导出原始数据（每天产生数据百万条），使用pandas进行数据处理，分析广告播放各个环节数据流失情况汇总。
+                    </p>
 
 
-                    <p><a href="#">yezixigua3.com</a></p>
+                </div>
+                <!--portfolio_item end-->
 
+                <!--portfolio_item start-->
+                <div class="portfolio_item">
+
+
+                    <h3>电视安全产品（百度）</h3>
+
+                    <br>
+
+                    <p>
+                        负责该产品的测试工作，如搭建DNS解析服务（DNSmasq），构造特定域名的DNS劫持，验证DNS防护功能。构造arp攻击和arp缓存表查看。性能测试脚本编写，获取cpu、内存、流量数据，输出成图片。工具APP编写，统计测试设备的设备信息，提升工作效率。
+                    </p>
+
+
+                </div>
+                <!--portfolio_item end-->
+
+                <!--portfolio_item start-->
+                <div class="portfolio_item">
+                    {#              <div class="winner_tag">Winner</div>#}
+                    <h3>100G长距光纤通信模块（华为）</h3>
+
+                    <br/>
+
+                    <p>
+                        拉通周边部门（软件、软测、硬测、装备、结构、工艺）确定项目方案以及测试需求，准备测试物料，导入生产加工，推动测试部开展测试，
+                        定位问题（研发测试和产线加工问题），修订方案至产品稳定，生产上量加工。
+                    </p>
+
+
+                </div>
+                <!--portfolio_item end-->
+
+
+                <!--portfolio_item start-->
+                <div class="portfolio_item">
+
+
+                    <h3>智能家居系统（学校）</h3>
 
                     <br>
 
@@ -321,77 +382,6 @@
                         网站最初手写前端页面，配合PHP+nginx完成整个的搭建，通过socket连接家中的网关，进而控制家中内部节点。后续学习转到Python， 使用Flask重写网站架构。
                         购买树莓派作为网关平台，通过NRF24l01模块实现内部节点的无线通信。独立实现内部控制板的硬件选型、原件采购、PCB打板、焊接、
                         调试嵌入式代码从而控制家中电器。
-                    </p>
-
-
-                </div>
-                <!--portfolio_item end-->
-
-
-                <!--portfolio_item start-->
-                <div class="portfolio_item">
-                    {#            <div class="winner_tag">Winner</div>#}
-                    <h3>网络爬虫</h3>
-
-                    <h6>pyquery</h6>
-
-                    <br/>
-
-                    <p>由于喜欢看小说，又不想充钱，学会了使用爬虫爬取小说全文，使用pyquery或正则表达式提取标题、章节、正文等元素，重新组织成小说原文。</p>
-
-
-                </div>
-                <!--portfolio_item end-->
-
-
-                <!--portfolio_item start-->
-                <div class="portfolio_item">
-                    <h3>恩智浦飞思卡尔智能车竞赛</h3>
-
-
-                    {#            <h6>blend.pk</h6>#}
-
-                    <br/>
-
-                    <p> 负责智能车硬件设计和图像识别算法的编写，包括摄像头驱动、DMA、图像矫正，以及调试时图像显示在LCD显示屏上和存入SD卡等。
-                        比赛内容是智能车通过摄像头读取路径信息，沿相应路径移动，比拼跑完整个赛道的耗时。
-                        获2015年恩智浦飞思卡尔智能车全国二等奖
-                    </p>
-
-
-                </div>
-                <!--portfolio_item end-->
-
-
-                <!--portfolio_item start-->
-                <div class="portfolio_item">
-                    <h3>瑞萨电子设计竞赛</h3>
-
-                    {#            <h6>name here</h6>#}
-
-                    <br/>
-
-                    <p>负责部分软件代码的编写。主控板上设计双MCU交互，其中一核专门负责图像处理，另一核负责其他全部的事物，包括主要的控制进程，
-                        以及九轴传感器的姿态读取解析、四轴飞行器姿态控制、调用图像处理结果、偏移姿态角进行移动、高度控制等
-                    </p>
-
-
-                </div>
-                <!--portfolio_item end-->
-
-
-                <!--portfolio_item start-->
-                <div class="portfolio_item">
-                    {#              <div class="winner_tag">Winner</div>#}
-                    <h3>100G长距光纤通信模块</h3>
-
-                    <h6>HW</h6>
-
-                    <br/>
-
-                    <p>
-                        拉通周边部门（软件、软测、硬测、装备、结构、工艺）确定项目方案以及测试需求，准备测试物料，导入生产加工，推动测试部开展测试，
-                        定位问题（研发测试和产线加工问题），修订方案至产品稳定，生产上量加工。
                     </p>
 
 
@@ -514,7 +504,7 @@
 
                         <li>Altium Designer</li>
 
-                        <li>Cadence</li>
+                        <li>Candence</li>
                     </ul>
 
                     <div class="clearfix"></div>
@@ -577,7 +567,6 @@
                     </div>
                     <div class="clearfix"></div>
                     <block type="">
-                        <li><p>职责业绩：</p>
                         <li><p>参加软件设计方案的技术评审，从功能实现、性能、稳定性和异常场景等多方面设计和执行测试用例。会编写ui自动化测试程序（appium、uiautomator2）,会编写辅助的APP提升工作效率，能自己编写和修改demo和aar包以达到测试目的</p>
                     </block>
 
@@ -603,7 +592,6 @@
                     </div>
                     <div class="clearfix"></div>
                     <block type="">
-                        <li><p>职责业绩：</p>
                         <li><p>1、主导项目开发，协调周边部门完成了一个100G光模块项目从设计到量产</p>
                         <li><p>2、所属项目的问题定位、生产加工处理、UT测试、资源协调</p>
                     </block>

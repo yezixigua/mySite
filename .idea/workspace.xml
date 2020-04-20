@@ -4,7 +4,9 @@
     <list default="true" id="fba31ccc-5f39-43a2-9456-c462460831eb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/test3.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/test3.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySite.py" beforeDir="false" afterPath="$PROJECT_DIR$/mySite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index_android.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index_android.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +41,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\space\python\mySite\mySite\static\images" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.mySite">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -334,38 +341,38 @@
     <option name="processedProjectFiles" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1898" height="433" key="GridCell.Tab.0.bottom" timestamp="1587279331781">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1587350628756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587279331781" />
-    <state width="1898" height="433" key="GridCell.Tab.0.center" timestamp="1587279331781">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587350628756" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1587350628755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587279331781" />
-    <state width="1898" height="433" key="GridCell.Tab.0.left" timestamp="1587279331780">
+    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587350628755" />
+    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1587350628755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587279331780" />
-    <state width="1898" height="433" key="GridCell.Tab.0.right" timestamp="1587279331781">
+    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587350628755" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1587350628755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587279331781" />
-    <state width="1898" height="404" key="GridCell.Tab.1.bottom" timestamp="1587270996028">
+    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587350628755" />
+    <state width="1898" height="404" key="GridCell.Tab.1.bottom" timestamp="1587312544401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="404" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587270996028" />
-    <state width="1898" height="404" key="GridCell.Tab.1.center" timestamp="1587270996028">
+    <state width="1898" height="404" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587312544401" />
+    <state width="1898" height="404" key="GridCell.Tab.1.center" timestamp="1587312544401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="404" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587270996028" />
-    <state width="1898" height="404" key="GridCell.Tab.1.left" timestamp="1587270996028">
+    <state width="1898" height="404" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587312544401" />
+    <state width="1898" height="404" key="GridCell.Tab.1.left" timestamp="1587312544401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="404" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587270996028" />
-    <state width="1898" height="404" key="GridCell.Tab.1.right" timestamp="1587270996028">
+    <state width="1898" height="404" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587312544401" />
+    <state width="1898" height="404" key="GridCell.Tab.1.right" timestamp="1587312544401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="404" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587270996028" />
+    <state width="1898" height="404" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587312544401" />
     <state x="461" y="150" key="SettingsEditor" timestamp="1587270177508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -374,25 +381,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1587270977728" />
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1587270115123">
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1587346799848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587270115123" />
-    <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1587270762918">
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587346799848" />
+    <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1587347122232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587270762918" />
+    <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587347122232" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mySite.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="request" language="Python" />
