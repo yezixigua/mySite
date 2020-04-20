@@ -5,7 +5,7 @@
 sudo chmod 777 db/test3.db
 
 # 关闭服务
-service supervisor stop
+supervisorctl stop mySite
 service nginx stop
 
 # 删除原本建立的软连接
@@ -16,7 +16,9 @@ rm /etc/nginx/sites-enabled/mySite
 ln -s /home/an/space/mySite/config/supervisor.conf /etc/supervisor/conf.d/mySite.conf
 ln -s /home/an/space/mySite/config/nginx_config /etc/nginx/sites-enabled/mySite
 
+supervisorctl reload
+
 # 重启服务
-service supervisor restart
+supervisorctl start mySite
 service nginx restart
 
