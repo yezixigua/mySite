@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 import db.model as db
 import os
 
@@ -33,6 +33,12 @@ def python_page():
         ip = '6.6.6.6'
     db.add_data(ip)
     return render_template('index_python.html', ip=ip)
+
+
+@app.route('/apk')
+def download_apk():
+
+    return send_from_directory('apk', "filereader-release.apk", as_attachment=True)
 
 
 if __name__ == '__main__':
