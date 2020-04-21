@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fba31ccc-5f39-43a2-9456-c462460831eb" name="Default" comment="">
+    <list default="true" id="fba31ccc-5f39-43a2-9456-c462460831eb" name="Default" comment="modify config and change html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/nginx_config" beforeDir="false" afterPath="$PROJECT_DIR$/config/nginx_config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/config/run.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/test3.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/test3.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index_android.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index_android.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index_python.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index_python.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,6 +327,14 @@
       <option name="presentableId" value="Default" />
       <updated>1540882139153</updated>
     </task>
+    <task id="LOCAL-00001" summary="modify config and change html">
+      <created>1587395336230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587395336230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -341,27 +348,48 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify config and change html" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify config and change html" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="633" y="112" key="CommitChangelistDialog2" timestamp="1587395334119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="633" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587395334119" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1587395265455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587395265455" />
-    <state width="1898" height="404" key="GridCell.Tab.0.bottom" timestamp="1587395207342">
+    <state width="1898" height="404" key="GridCell.Tab.0.bottom" timestamp="1587449706153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="404" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587395207342" />
-    <state width="1898" height="404" key="GridCell.Tab.0.center" timestamp="1587395207342">
+    <state width="1898" height="404" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587449706153" />
+    <state width="1898" height="404" key="GridCell.Tab.0.center" timestamp="1587449706153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="404" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587395207342" />
-    <state width="1898" height="404" key="GridCell.Tab.0.left" timestamp="1587395207342">
+    <state width="1898" height="404" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587449706153" />
+    <state width="1898" height="404" key="GridCell.Tab.0.left" timestamp="1587449706152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="404" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587395207342" />
-    <state width="1898" height="404" key="GridCell.Tab.0.right" timestamp="1587395207342">
+    <state width="1898" height="404" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587449706152" />
+    <state width="1898" height="404" key="GridCell.Tab.0.right" timestamp="1587449706153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="404" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587395207342" />
+    <state width="1898" height="404" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587449706153" />
     <state width="1898" height="404" key="GridCell.Tab.1.bottom" timestamp="1587312544401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -386,10 +414,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1587270977728" />
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1587346799848">
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1587434447381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587346799848" />
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587434447381" />
     <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1587347122232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
