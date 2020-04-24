@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fba31ccc-5f39-43a2-9456-c462460831eb" name="Default" comment="modify config and change html">
-      <change afterPath="$PROJECT_DIR$/lib/md5util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/93140797cdf31ccc8fbc877dffb427b7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/be09e690f3a1bb2878c41a5ea8cf3df6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/e0673eab06426f3da84a5e145996e225.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pic/e0ccf2f8f40b69726b40a748ba1d32a8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mySite.py" beforeDir="false" afterPath="$PROJECT_DIR$/mySite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/test3.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/test3.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
