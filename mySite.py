@@ -1,10 +1,13 @@
-from flask import Flask, render_template, request, send_from_directory
+from flask import Flask, render_template, request, send_from_directory, abort
 import db.model as db
-import os
+import os, socket, json
+from lib import md5util
 
 dir_name, filename = os.path.split(os.path.abspath(__file__))
 os.chdir(dir_name)
 app = Flask(__name__, static_url_path='')
+
+ads_dict = {}
 
 
 @app.route('/')
@@ -39,6 +42,40 @@ def python_page():
 def download_apk():
 
     return send_from_directory('apk', "filereader-release.apk", as_attachment=True)
+
+
+@app.route('/download/<path:url_path>/')
+def download(url_path):
+    if request.method == "GET":
+
+        file_type = url_path.split('/')[0]
+        name = url_path.split('/')[1]
+        print(url_path)
+        if os.path.isfile(os.path.join(file_type, name)):
+            return send_from_directory(file_type, name, as_attachment=True)
+        abort(404)
+
+
+@app.route('/ads')
+def request_ads():
+
+    ip = socket.gethostbyname(socket.getfqdn(socket.gethostname()))
+
+    if request.method == "GET":
+
+        pic_dir = os.path.join(os.getcwd(), 'pic')
+        pic_list = os.listdir(pic_dir)
+
+        if len(ads_dict) == len(pic_dir):
+            return ads_dict
+        else:
+            for pic in pic_list:
+                pic_key = 'http://' + 'www.yezixigua.cn:3000' + '/download/pic/' + pic
+                if pic_key not in ads_dict:
+                    pic_md5 = md5util.get_file_md5(os.path.join(pic_dir, pic))
+                    ads_dict[pic_key] = pic_md5
+
+        return json.dumps(ads_dict)
 
 
 if __name__ == '__main__':
