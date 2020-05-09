@@ -78,6 +78,26 @@ def request_ads():
         return json.dumps(ads_dict)
 
 
+@app.route('/apk_version')
+def request_apk_version():
+    apk_version = {}
+
+    if request.method == "GET":
+
+        try:
+            with open('apk/version.json', 'r+') as f:
+                try:
+                    json_data = json.load(f)
+                except Exception as e:
+                    print('json数据格式不正确：' + str(e))
+            return json_data
+        except Exception as e:
+            print('文件不存在：' + str(e))
+        print(json_data)
+
+        return json_data
+
+
 if __name__ == '__main__':
 
     config = {
